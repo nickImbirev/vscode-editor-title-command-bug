@@ -1,6 +1,4 @@
 import * as vscode from "vscode";
-import * as path from "path";
-import { TextEncoder } from "util";
 
 export async function activate(context: vscode.ExtensionContext) {
   const disposable = vscode.commands.registerCommand(
